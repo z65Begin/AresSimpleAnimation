@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3CF3381EB87E9300216F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF3371EB87E9300216F53 /* main.m */; };
+		3B3CF33B1EB87E9300216F53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF33A1EB87E9300216F53 /* AppDelegate.m */; };
+		3B3CF33E1EB87E9300216F53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF33D1EB87E9300216F53 /* ViewController.m */; };
+		3B3CF3411EB87E9400216F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF33F1EB87E9400216F53 /* Main.storyboard */; };
+		3B3CF3441EB87E9400216F53 /* AresSimpleAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF3421EB87E9400216F53 /* AresSimpleAnimation.xcdatamodeld */; };
+		3B3CF3461EB87E9400216F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF3451EB87E9400216F53 /* Assets.xcassets */; };
+		3B3CF3491EB87E9400216F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF3471EB87E9400216F53 /* LaunchScreen.storyboard */; };
+		3B3CF3541EB87E9400216F53 /* AresSimpleAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF3531EB87E9400216F53 /* AresSimpleAnimationTests.m */; };
+		3B3CF35F1EB87E9400216F53 /* AresSimpleAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF35E1EB87E9400216F53 /* AresSimpleAnimationUITests.m */; };
+		3B3CF36F1EB87F2800216F53 /* AresEmitterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CF36E1EB87F2800216F53 /* AresEmitterButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3CF3501EB87E9400216F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3CF32B1EB87E9300216F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3CF3321EB87E9300216F53;
+			remoteInfo = AresSimpleAnimation;
+		};
+		3B3CF35B1EB87E9400216F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3CF32B1EB87E9300216F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3CF3321EB87E9300216F53;
+			remoteInfo = AresSimpleAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3CF3331EB87E9300216F53 /* AresSimpleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AresSimpleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3CF3371EB87E9300216F53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B3CF3391EB87E9300216F53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B3CF33A1EB87E9300216F53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B3CF33C1EB87E9300216F53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B3CF33D1EB87E9300216F53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B3CF3401EB87E9400216F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B3CF3431EB87E9400216F53 /* AresSimpleAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AresSimpleAnimation.xcdatamodel; sourceTree = "<group>"; };
+		3B3CF3451EB87E9400216F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B3CF3481EB87E9400216F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B3CF34A1EB87E9400216F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3CF34F1EB87E9400216F53 /* AresSimpleAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AresSimpleAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3CF3531EB87E9400216F53 /* AresSimpleAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresSimpleAnimationTests.m; sourceTree = "<group>"; };
+		3B3CF3551EB87E9400216F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3CF35A1EB87E9400216F53 /* AresSimpleAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AresSimpleAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3CF35E1EB87E9400216F53 /* AresSimpleAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresSimpleAnimationUITests.m; sourceTree = "<group>"; };
+		3B3CF3601EB87E9400216F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3CF36D1EB87F2800216F53 /* AresEmitterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AresEmitterButton.h; sourceTree = "<group>"; };
+		3B3CF36E1EB87F2800216F53 /* AresEmitterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AresEmitterButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3CF3301EB87E9300216F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CF34C1EB87E9400216F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CF3571EB87E9400216F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3CF32A1EB87E9300216F53 = {
+			isa = PBXGroup;
+			children = (
+				3B3CF3351EB87E9300216F53 /* AresSimpleAnimation */,
+				3B3CF3521EB87E9400216F53 /* AresSimpleAnimationTests */,
+				3B3CF35D1EB87E9400216F53 /* AresSimpleAnimationUITests */,
+				3B3CF3341EB87E9300216F53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3CF3341EB87E9300216F53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3CF3331EB87E9300216F53 /* AresSimpleAnimation.app */,
+				3B3CF34F1EB87E9400216F53 /* AresSimpleAnimationTests.xctest */,
+				3B3CF35A1EB87E9400216F53 /* AresSimpleAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3CF3351EB87E9300216F53 /* AresSimpleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3B3CF36C1EB87EBD00216F53 /* AresEmitterButton */,
+				3B3CF3391EB87E9300216F53 /* AppDelegate.h */,
+				3B3CF33A1EB87E9300216F53 /* AppDelegate.m */,
+				3B3CF33C1EB87E9300216F53 /* ViewController.h */,
+				3B3CF33D1EB87E9300216F53 /* ViewController.m */,
+				3B3CF33F1EB87E9400216F53 /* Main.storyboard */,
+				3B3CF3451EB87E9400216F53 /* Assets.xcassets */,
+				3B3CF3471EB87E9400216F53 /* LaunchScreen.storyboard */,
+				3B3CF34A1EB87E9400216F53 /* Info.plist */,
+				3B3CF3421EB87E9400216F53 /* AresSimpleAnimation.xcdatamodeld */,
+				3B3CF3361EB87E9300216F53 /* Supporting Files */,
+			);
+			path = AresSimpleAnimation;
+			sourceTree = "<group>";
+		};
+		3B3CF3361EB87E9300216F53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3CF3371EB87E9300216F53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3CF3521EB87E9400216F53 /* AresSimpleAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3CF3531EB87E9400216F53 /* AresSimpleAnimationTests.m */,
+				3B3CF3551EB87E9400216F53 /* Info.plist */,
+			);
+			path = AresSimpleAnimationTests;
+			sourceTree = "<group>";
+		};
+		3B3CF35D1EB87E9400216F53 /* AresSimpleAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3CF35E1EB87E9400216F53 /* AresSimpleAnimationUITests.m */,
+				3B3CF3601EB87E9400216F53 /* Info.plist */,
+			);
+			path = AresSimpleAnimationUITests;
+			sourceTree = "<group>";
+		};
+		3B3CF36C1EB87EBD00216F53 /* AresEmitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B3CF36D1EB87F2800216F53 /* AresEmitterButton.h */,
+				3B3CF36E1EB87F2800216F53 /* AresEmitterButton.m */,
+			);
+			name = AresEmitterButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3CF3321EB87E9300216F53 /* AresSimpleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3CF3631EB87E9400216F53 /* Build configuration list for PBXNativeTarget "AresSimpleAnimation" */;
+			buildPhases = (
+				3B3CF32F1EB87E9300216F53 /* Sources */,
+				3B3CF3301EB87E9300216F53 /* Frameworks */,
+				3B3CF3311EB87E9300216F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AresSimpleAnimation;
+			productName = AresSimpleAnimation;
+			productReference = 3B3CF3331EB87E9300216F53 /* AresSimpleAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B3CF34E1EB87E9400216F53 /* AresSimpleAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3CF3661EB87E9400216F53 /* Build configuration list for PBXNativeTarget "AresSimpleAnimationTests" */;
+			buildPhases = (
+				3B3CF34B1EB87E9400216F53 /* Sources */,
+				3B3CF34C1EB87E9400216F53 /* Frameworks */,
+				3B3CF34D1EB87E9400216F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3CF3511EB87E9400216F53 /* PBXTargetDependency */,
+			);
+			name = AresSimpleAnimationTests;
+			productName = AresSimpleAnimationTests;
+			productReference = 3B3CF34F1EB87E9400216F53 /* AresSimpleAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B3CF3591EB87E9400216F53 /* AresSimpleAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3CF3691EB87E9400216F53 /* Build configuration list for PBXNativeTarget "AresSimpleAnimationUITests" */;
+			buildPhases = (
+				3B3CF3561EB87E9400216F53 /* Sources */,
+				3B3CF3571EB87E9400216F53 /* Frameworks */,
+				3B3CF3581EB87E9400216F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3CF35C1EB87E9400216F53 /* PBXTargetDependency */,
+			);
+			name = AresSimpleAnimationUITests;
+			productName = AresSimpleAnimationUITests;
+			productReference = 3B3CF35A1EB87E9400216F53 /* AresSimpleAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3CF32B1EB87E9300216F53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ares;
+				TargetAttributes = {
+					3B3CF3321EB87E9300216F53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NNU6Z5592H;
+						ProvisioningStyle = Automatic;
+					};
+					3B3CF34E1EB87E9400216F53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B3CF3321EB87E9300216F53;
+					};
+					3B3CF3591EB87E9400216F53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B3CF3321EB87E9300216F53;
+					};
+				};
+			};
+			buildConfigurationList = 3B3CF32E1EB87E9300216F53 /* Build configuration list for PBXProject "AresSimpleAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3CF32A1EB87E9300216F53;
+			productRefGroup = 3B3CF3341EB87E9300216F53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3CF3321EB87E9300216F53 /* AresSimpleAnimation */,
+				3B3CF34E1EB87E9400216F53 /* AresSimpleAnimationTests */,
+				3B3CF3591EB87E9400216F53 /* AresSimpleAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3CF3311EB87E9300216F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3CF3491EB87E9400216F53 /* LaunchScreen.storyboard in Resources */,
+				3B3CF3461EB87E9400216F53 /* Assets.xcassets in Resources */,
+				3B3CF3411EB87E9400216F53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CF34D1EB87E9400216F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CF3581EB87E9400216F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3CF32F1EB87E9300216F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3CF33E1EB87E9300216F53 /* ViewController.m in Sources */,
+				3B3CF33B1EB87E9300216F53 /* AppDelegate.m in Sources */,
+				3B3CF3441EB87E9400216F53 /* AresSimpleAnimation.xcdatamodeld in Sources */,
+				3B3CF3381EB87E9300216F53 /* main.m in Sources */,
+				3B3CF36F1EB87F2800216F53 /* AresEmitterButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CF34B1EB87E9400216F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3CF3541EB87E9400216F53 /* AresSimpleAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CF3561EB87E9400216F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3CF35F1EB87E9400216F53 /* AresSimpleAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3CF3511EB87E9400216F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3CF3321EB87E9300216F53 /* AresSimpleAnimation */;
+			targetProxy = 3B3CF3501EB87E9400216F53 /* PBXContainerItemProxy */;
+		};
+		3B3CF35C1EB87E9400216F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3CF3321EB87E9300216F53 /* AresSimpleAnimation */;
+			targetProxy = 3B3CF35B1EB87E9400216F53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B3CF33F1EB87E9400216F53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3CF3401EB87E9400216F53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B3CF3471EB87E9400216F53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3CF3481EB87E9400216F53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3CF3611EB87E9400216F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B3CF3621EB87E9400216F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3CF3641EB87E9400216F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NNU6Z5592H;
+				INFOPLIST_FILE = AresSimpleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z65Begin.AresSimpleAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B3CF3651EB87E9400216F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NNU6Z5592H;
+				INFOPLIST_FILE = AresSimpleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z65Begin.AresSimpleAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B3CF3671EB87E9400216F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AresSimpleAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z65Begin.AresSimpleAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AresSimpleAnimation.app/AresSimpleAnimation";
+			};
+			name = Debug;
+		};
+		3B3CF3681EB87E9400216F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AresSimpleAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z65Begin.AresSimpleAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AresSimpleAnimation.app/AresSimpleAnimation";
+			};
+			name = Release;
+		};
+		3B3CF36A1EB87E9400216F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AresSimpleAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z65Begin.AresSimpleAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AresSimpleAnimation;
+			};
+			name = Debug;
+		};
+		3B3CF36B1EB87E9400216F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AresSimpleAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z65Begin.AresSimpleAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AresSimpleAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3CF32E1EB87E9300216F53 /* Build configuration list for PBXProject "AresSimpleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3CF3611EB87E9400216F53 /* Debug */,
+				3B3CF3621EB87E9400216F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3CF3631EB87E9400216F53 /* Build configuration list for PBXNativeTarget "AresSimpleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3CF3641EB87E9400216F53 /* Debug */,
+				3B3CF3651EB87E9400216F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B3CF3661EB87E9400216F53 /* Build configuration list for PBXNativeTarget "AresSimpleAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3CF3671EB87E9400216F53 /* Debug */,
+				3B3CF3681EB87E9400216F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B3CF3691EB87E9400216F53 /* Build configuration list for PBXNativeTarget "AresSimpleAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3CF36A1EB87E9400216F53 /* Debug */,
+				3B3CF36B1EB87E9400216F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B3CF3421EB87E9400216F53 /* AresSimpleAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B3CF3431EB87E9400216F53 /* AresSimpleAnimation.xcdatamodel */,
+			);
+			currentVersion = 3B3CF3431EB87E9400216F53 /* AresSimpleAnimation.xcdatamodel */;
+			path = AresSimpleAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B3CF32B1EB87E9300216F53 /* Project object */;
+}
